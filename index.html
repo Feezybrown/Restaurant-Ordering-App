@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant Ordering App</title>
+</head>
+<body>
+    
+    <header class="header-container"> 
+        <div class="heading-container">
+            <h1>Feezy's Diner</h1>
+            <p class="header-text">The best burgers and pizzas in town.</p>
+        </div>
+    </header>
+   
+        <section class="section-container">
+            <!-- <div class="food-container">
+                <div class="menu">
+                    <div>
+                        <img src="images/Pizza.png" alt="pizza">
+                    </div>
+                    <div class="food-text">
+                        <h3 class="menu-text">Pizza</h3>
+                        <p class="ingredients">pepperoni, mushroom, mozarella</p>
+                        <h3>$14</h3>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="add-btn">+</button>
+                    <button class="remove-btn">-</button>
+                </div>
+            </div> -->
+    </section>
+
+
+
+    <section class="section-container" id="order-info">
+
+        <!-- <h3 class ="order-title">Your order</h3>
+
+        <div class ="order-line">
+            <h3>${orderItem.name}</h3>
+            <p class ="remove-btn" data-remove = '${index}'>remove</p>
+            <h3 class ="price">$${orderItem.price}</h3>
+        </div> -->
+        
+        <!-- <hr>
+        <div class ="total-price-line">
+            <h3>Total price:</h3>
+            <h3 class = "total-price">$${totalPrice}</h3>
+        </div>
+        <button class="order-btn" id="order-btn">Complete order</button> -->
+        
+    </section>
+
+        <div class="payment-container" id="payment-container">
+            <div class="close-payment-btn-container">
+                <button class="payment-close-btn" id="payment-close-btn">X</button>
+            </div>
+            <div class="payment-inner" id="payment-inner">
+                <h2>Enter Card Details</h2>
+            </div>
+            <form id="payment-form">
+                <input type="text" id="orderName" name="orderName"  placeholder="Enter your name" required>
+                <input type="number" id="orderCard" name="orderCard"  placeholder="Enter card number" required>
+                <input type="number" id="orderCvv" name="orderCvv"  placeholder="Enter CVV" required>
+            
+            <div class="payment-btn" id="payment-btn">
+                <button class="payment">Pay</button>
+            </div>
+            </form>
+        </div>
+     
+
+<script src="index.js" type="module"></script>
+</body>
+</html>
+

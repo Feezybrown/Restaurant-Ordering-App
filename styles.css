@@ -1,0 +1,229 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+/* containers */
+
+.header-container{
+    width:600px;
+    margin: 0 auto;
+}
+
+.heading-container{
+    background-image: url("images/burger.png");
+    background-size: cover;
+    padding: 45px 0;
+}
+
+.section-container{
+    width:500px;
+    margin: 0 auto;
+}
+
+.food-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid #dedede;
+    padding: 35px 0;
+}
+
+.payment-container {
+    display: none;    /*change to none later*/
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 375px;
+    width: 420px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    color: whitesmoke;
+}
+
+
+/* Typography */
+
+
+
+h1{
+    font-size: 36px;
+}
+
+h1, .header-text{
+    margin: 0px 50px;
+    color: white;
+}
+
+.payment-inner h2{
+    font-family: verdana;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.food-text p{
+    margin: 3px 15px;
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.food-text h3{
+    margin: 3px 15px;
+}
+
+
+.order-title{
+    margin-top: 50px;
+    text-align: center
+}
+
+
+/* Order details */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.food-item{
+    font-size: 64px;
+    margin: 0;
+}
+
+.order{
+    border-bottom: 2px solid black;
+}
+
+
+.add-btn{
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    padding: 8px 13px;
+    background-color: white;
+}
+
+
+.order-btn{
+    width: 500px;
+    padding: 13px;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.payment{
+    display: block;
+    margin: 35px auto;
+    width: 375px;
+    padding: 13px;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+.close-payment-btn-container{
+    text-align: right;
+}
+
+.payment-close-btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: grey;
+  margin-top: 10px;
+}
+
+.payment-close-btn:hover,
+.payment-close-btn:active{
+    color: #16DB99;
+    cursor: pointer;
+}
+
+
+input{
+    margin: 15px auto;
+    display: block;
+    border: 1px solid #757575;
+    padding: 10px;
+    width: 350px;
+    border-radius: 3px;
+    font-family: verdana;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.order-line{
+    display: flex;
+    align-items: center
+}
+    .remove-btn{
+    font-size: 18px;
+    margin-left: 16px;
+    color: #8B8B8B;
+    cursor: pointer
+    }
+    .price {
+    margin: 0 0 0 auto; 
+    }
+    
+.total-price-line{
+    display: flex;
+    align-items: center;
+}
+    .total-price{
+        margin: 0 0 0 auto;
+    }
+    
+
+.payment-container-loading{
+    padding-top:30%;
+    padding-left: 37%;
+}
+       
+
+.customer-name{
+    color: #16DB99;
+}
+
+
+.order-message{
+    margin-top: 10%;
+    padding:1rem;
+    background: #d0efe4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.loading-gif{
+    margin: 20px, auto;
+}
+
+#loading-text{
+    text-align: center;
+}
